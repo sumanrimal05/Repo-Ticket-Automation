@@ -4,7 +4,7 @@ This Python script automates the creation and linking of tickets in a project ma
 
 ## Features
 
-- **Ticket Creation**: Creates tasks for each user story and links them to the respective user story.
+- **Ticket Creation**: Creates ticket based on the excel sheet
 - **Avoids Duplicates**: Skips creating duplicate tasks and only creates new tasks if they do not already exist.
 
 ## Installation
@@ -53,19 +53,17 @@ This Python script automates the creation and linking of tickets in a project ma
 
 The Excel file `Tasks.xlsx` should have the following structure:
 
-| Ticket Name                                          | Assignee    | Milestone | Due Date  | Labels                            |
-|------------------------------------------------------|-------------|-----------|-----------|-----------------------------------|
-| User Story >> Authentication >> UAA001 >> Login     |             | Sprint 1  | 6/28/2024 | ["User_Story"]                    |
-| Task >> Authentication >> Frontend >> Login          | Suman Rimal | Sprint 1  | 6/28/2024 | ["CAT_REGULAR", "PLAT_FRONTEND"] |
-| Task >> Authentication >> Backend >> Login           | Suman Rimal | Sprint 1  | 6/29/2024 | ["CAT_REGULAR", "PLAT_BACKEND/CMS"]|
-| Task >> Authentication >> API >> Login               | Suman Rimal | Sprint 1  | 6/30/2024 | ["CAT_REGULAR", "PLAT_API"]       |
-| Task >> Authentication >> QA >> Login                | Suman Rimal | Sprint 1  | 7/1/2024  | ["CAT_REGULAR", "PLAT_QA"]        |
+| Ticket Name                                     | Assignee    | Milestone | Due Date  | Labels                              |
+| ----------------------------------------------- | ----------- | --------- | --------- | ----------------------------------- |
+| User Story >> Authentication >> UAA001 >> Login |             | Sprint 1  | 6/28/2024 | ["User_Story"]                      |
+| Task >> Authentication >> Frontend >> Login     | Suman Rimal | Sprint 1  | 6/28/2024 | ["CAT_REGULAR", "PLAT_FRONTEND"]    |
+| Task >> Authentication >> Backend >> Login      | Suman Rimal | Sprint 1  | 6/29/2024 | ["CAT_REGULAR", "PLAT_BACKEND/CMS"] |
+| Task >> Authentication >> API >> Login          | Suman Rimal | Sprint 1  | 6/30/2024 | ["CAT_REGULAR", "PLAT_API"]         |
+| Task >> Authentication >> QA >> Login           | Suman Rimal | Sprint 1  | 7/1/2024  | ["CAT_REGULAR", "PLAT_QA"]          |
 
 ## Support
 
 For any issues or questions, please open an issue in the GitHub repository or contact [Suman Rimal](mailto:sumanrimalconnect@gmail.com).
-
-
 
 ---
 
