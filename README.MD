@@ -1,6 +1,6 @@
 # Project Ticket Automation
 
-This Python script automates the creation and linking of tickets in a project management system using the GitLab API. It reads ticket data from an Excel file and interacts with the GitLab API to create user stories and tasks, as well as link tasks to their respective user stories.
+This Python script automates the creation and linking of tickets in a project management system using the GitLab API. It reads ticket data from an Excel file and interacts with the GitLab API to create tickets based on the excel sheet.
 
 ## Features
 
