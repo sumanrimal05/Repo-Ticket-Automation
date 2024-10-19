@@ -61,10 +61,4 @@ The Excel file `Tasks.xlsx` should have the following structure:
 | Task >> Authentication >> API >> Login          | Suman Rimal | Sprint 1  | 6/30/2024 | ["CAT_REGULAR", "PLAT_API"]         |
 | Task >> Authentication >> QA >> Login           | Suman Rimal | Sprint 1  | 7/1/2024  | ["CAT_REGULAR", "PLAT_QA"]          |
 
-## Support
 
-For any issues or questions, please open an issue in the GitHub repository or contact [Suman Rimal](mailto:sumanrimalconnect@gmail.com).
-
----
-
-Feel free to customize this README.md file further based on your project's specific details and requirements.
